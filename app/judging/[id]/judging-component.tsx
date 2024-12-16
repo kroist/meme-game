@@ -1,7 +1,7 @@
 // app/session/[id]/judging/judging-component.tsx
 "use client";
 
-import { useState, useTransition, useEffect } from "react";
+import { useState, useTransition } from "react";
 import {
   Card,
   CardHeader,

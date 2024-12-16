@@ -97,7 +97,7 @@ export async function VoteResults({
                   </div>
                 </div>
                 <p className="text-green-800 mt-2">
-                  Winning Caption: "{result.winner.submission?.caption}"
+                  Winning Caption: {result.winner.submission?.caption}
                 </p>
               </div>
             )}
