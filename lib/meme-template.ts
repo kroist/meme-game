@@ -26,12 +26,6 @@ export const MEME_TEMPLATES = [
   },
   {
     id: 5,
-    name: "Chill guy",
-    url: "/chill-guy.png",
-    description: "Just a chill guy",
-  },
-  {
-    id: 6,
     name: "Soyjack vs Chad",
     url: "/soyjack-vs-chad.png",
     description: "Soyjack vs Chad",
