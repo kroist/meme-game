@@ -5,28 +5,7 @@ import { redirect } from "next/navigation";
 import { Card, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import JudgingComponent from "./judging-component";
-
-const MEME_TEMPLATES = [
-  {
-    id: 1,
-    name: "Distracted Boyfriend",
-    url: "/distracted-boyfriend.png",
-    description:
-      "Guy looking back at another girl while his girlfriend looks disapproving",
-  },
-  {
-    id: 2,
-    name: "Drake Posting",
-    url: "/drake.png",
-    description: "Drake disapproving top panel, approving bottom panel",
-  },
-  {
-    id: 3,
-    name: "Is This a Pigeon?",
-    url: "/bell-curve.png",
-    description: "Bell curve",
-  },
-];
+import { MEME_TEMPLATES } from "@/lib/meme-template";
 
 async function getSessionData(sessionId: string) {
   const session = await kvHelpers.getSession(sessionId);

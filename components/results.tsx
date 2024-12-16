@@ -1,26 +1,5 @@
 import { kvHelpers, Session, Team } from "@/lib/kv";
-
-const MEME_TEMPLATES = [
-  {
-    id: 1,
-    name: "Distracted Boyfriend",
-    url: "/distracted-boyfriend.png",
-    description:
-      "Guy looking back at another girl while his girlfriend looks disapproving",
-  },
-  {
-    id: 2,
-    name: "Drake Posting",
-    url: "/drake.png",
-    description: "Drake disapproving top panel, approving bottom panel",
-  },
-  {
-    id: 3,
-    name: "Is This a Pigeon?",
-    url: "/bell-curve.png",
-    description: "Bell curve",
-  },
-];
+import { MEME_TEMPLATES } from "@/lib/meme-template";
 
 // app/session/[id]/results.tsx
 export async function VoteResults({
